@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gift Empire</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <!-- <a href="#"><i class="ri-mail-fill"></i></a> -->
+        <a href="https://github.com/brooklyn5991"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/oke-okorefe-28009a219"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">GIFT EMPIRE<span></span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link"><a href="#client">Clients</a></li>
+            <!-- <li class="link"><a href="#blog">Blog</a></li> -->
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/OKE2.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4></h4>
+          <h1>Hi, I Am Oke Okorefe.</h1>
+          <p>
+            I'm a committed web developer with a strong creative touch, driven by the desire to
+             transform lines of code into captivating online adventures. My venture into the digital
+              domain commenced several years ago, and I've since refined my expertise.
+          </p>
+          <!-- <button class="btn">Hire Me Now</button> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/Brook.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There I Am Oke Okorefe.</h2>
+        <p>
+          An enthusiastic web developer with a creative edge and a talent for transforming ideas
+           into tangible results. My voyage into web development commenced with a deep-rooted 
+           interest in coding and design, and it has matured into a profession where I seamlessly merge aesthetics with functionality.
+        </p>
+        <h4>
+          Prioritizing user experience and maintaining a steadfast commitment to staying abreast of 
+          the latest industry trends, I am resolute in crafting web solutions that not only meet but
+           surpass expectations.
+        </h4>
+        <div class="about__btns">
+          <!-- <a href="assets/Andarson_CV.pdf" download class="download__btn">
+            Download CV
+          </a> -->
+          <!-- <a href="#"><i class="ri-mail-fill"></i></a> -->
+          <a href="https://github.com/brooklyn5991"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/oke-okorefe-28009a219"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>Design</h4>
+          <p>
+            I am committed to delivering
+            engaging digital content.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>Development</h4>
+          <p>
+            I remain at the forefront of technological advancements
+             to ensure that your digital presence is highly performant.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Testing & QA</h4>
+          <p>
+            I comprehend that your digital presence should not only possess
+             an appealing appearance but also drive traffic and engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">My Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Education</button>
+          <button class="btn project__btn" data-filter=".game">Business</button>
+          <button class="btn project__btn" data-filter=".design"> Hospitals </button>
+          <button class="btn project__btn" data-filter=".law"> Law Firms</button>
+          <button class="btn project__btn" data-filter=".estate"> Real Estate</button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <!-- First project card with a link and hover effect -->
+        <div class="project__card mix game">
+          <a href="https://thunderous-kleicha-821e2d.netlify.app/">
+            <div class="project__image">
+              <img src="assets/marketing.jpeg" alt="project" />
+              <div class="project__overlay">
+                Affiliate Marketer
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <!-- Second project card with a link and hover effect -->
+        <div class="project__card mix game">
+          <a href="https://kemtoneauto.site/">
+            <div class="project__image">
+              <img src="assets/kemtonemech.jpeg" alt="project" />
+              <div class="project__overlay">
+                Auto Mechanic
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <!-- Third project card with a link and hover effect -->
+        <div class="project__card mix game">
+          <a href="https://brooklyn5991.github.io/sscomputers.com/">
+            <div class="project__image">
+              <img src="assets/laptop.jpg" alt="project" />
+              <div class="project__overlay">
+                Gadgets Sales
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <!-- Fourth project card without a link and hover effect -->
+        <div class="project__card mix design">
+          <a href="https://brooklyn5991.github.io/hospital2/">
+            <div class="project__image">
+              <img src="assets/hospital2.jpeg" alt="project" />
+              <div class="project__overlay">
+                Hospitals
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <!-- Fifth project card with a link and hover effect -->
+        <div class="project__card mix web">
+          <a href="https://brooklyn5991.github.io/education/index.html">
+            <div class="project__image">
+              <img src="assets/education.jpeg" alt="project" />
+              <div class="project__overlay">
+                Education
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <!-- Sixth project card with a link and hover effect -->
+        <div class="project__card mix game">
+          <a href="https://brooklyn5991.github.io/ruky/">
+            <div class="project__image">
+              <img src="assets/weightlift.jpeg" alt="project" />
+              <div class="project__overlay">
+                Gym Website
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <!-- Seventh project card without a link and hover effect -->
+        <div class="project__card mix estate">
+          <a href="https://brooklyn5991.github.io/realestate/">
+          <div class="project__image">
+            <img src="assets/realestate1.jpeg" alt="project" />
+            <div class="project__overlay">
+              Real Estate
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <!-- photo business -->
+        <div class="project__card mix game">
+          <a href="https://brooklyn5991.github.io/Brooklynphoto.com/">
+          <div class="project__image">
+            <img src="assets/photo1.jpeg" alt="project" />
+            <div class="project__overlay">
+              Photo Portfolio
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <!-- law -->
+        <div class="project__card mix law">
+          <a href="https://brooklyn5991.github.io/lawfirm1/">
+          <div class="project__image">
+            <img src="assets/law2.webp" alt="project" />
+            <div class="project__overlay">
+              Law Firm
+            </div>
+          </div>
+          </a>
+        </div>
+
+
+      </div>
+      
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Our Services</p>
+      <h2 class="section__header">What We Do?</h2>
+      <p class="section__description">
+        I specialize in a diverse array of web development services tailored 
+        to transform your vision into a tangible reality.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            We craft user-friendly interfaces that engage visitors and help you
+            achieve your online goals with minimum efforts.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>E-commerce Solutions</h4>
+          <p>
+            We build secure, scalable, and user-centric online stores that
+            enhance the shopping experience and drive conversions.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>Online Presence</h4>
+          <p>
+            I create websites with online presence that help potiential clients communicate and reach out 
+            to you easily.
+          </p>
+        </div>
+        <!-- <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Content Marketing</h4>
+          <p>
+            Our services include creating blog posts, videos, and social media
+            content that drives traffic and engagement.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>SEO</h4>
+          <p>
+            Our SEO strategies are tailored to your specific goals, helping you
+            reach your target audience and grow your online presence.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>Digital Marketing</h4>
+          <p>
+            From pay-per-click (PPC) advertising to social media marketing, we
+            ensure your brand stands out in the crowded digital landscape.
+          </p>
+        </div> -->
+      </div>
+    </section>
+
+   <!-- <section class="section__container client__container" id="client">
+      <p class="section__subheader">Testimonials</p>
+      <h2 class="section__header">What Our Clients Say About Us</h2>
+    
+      <div class="swiper">
+        
+        <div class="swiper-wrapper">
+          
+           <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div>
+                <p>
+                  They transformed our online presence with their SEO and
+                  content marketing services. Our website now ranks higher in
+                  search results, and the quality of leads has improved
+                  substantially. I highly recommend their digital marketing
+                  expertise.
+                </p>
+                <h4>John Miller <span>CEO, Corporation</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div>
+                <p>
+                  Working with them has been a game-changer for our business.
+                  Their web development expertise helped us create a sleek and
+                  responsive website that has significantly increased our online
+                  sales. Their dedication and innovative solutions truly set
+                  them apart.
+                </p>
+                <h4>Sarah Thompson <span>Marketing Director</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <div>
+                <p>
+                  Our digital marketing strategy needed a revamp, and they
+                  delivered outstanding results. Their team's creative approach
+                  to PPC campaigns and social media advertising has generated a
+                  significant increase in our website traffic and conversions.
+                </p>
+                <h4>David Peterson <span>Marketing Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpg" alt="client" />
+              <div>
+                <p>
+                  The mobile app they developed for our company exceeded our
+                  expectations. Not only is it user-friendly, but it also helped
+                  us connect with our customers on a whole new level. Their
+                  attention to detail and commitment to delivering on time were
+                  exceptional.
+                </p>
+                <h4>Harrison Rogers <span>Product Manager</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+      </div>
+    </section> -->
+
+    <section class="section__container blog__container" id="blog">
+      <!-- <p class="section__subheader">Blog Posts</p> -->
+      <h2 class="section__header">Why You Need A Website</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <p>Global Reach and Accessibility:</p>
+          <h4>A website allows businesses to extend their reach 
+            beyond physical locations, enabling them to connect with a worldwide audience 24/7. 
+            This accessibility ensures that potential customers can learn about your products or 
+            services at any time, regardless of their geographic location.</h4>
+          <!-- <a href="#">Read More</a> -->
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <p>Credibility and Professionalism: </p>
+          <h4>A well-designed website instills trust and professionalism in 
+            potential customers. It serves as a digital storefront where visitors can find essential
+             information about your business, such as contact details, product/service offerings, customer 
+             eviews, and more. A professionally designed website can significantly enhance your brand's 
+             credibility.</h4>
+          <!-- <a href="#">Read More</a> -->
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <p>Marketing and Customer Engagement:</p>
+          <h4> Websites are a hub for marketing and customer engagement. Utilize techniques like SEO, 
+            content marketing, and social media integration to attract and engage your audience. 
+            Features like contact forms, chat support, and e-commerce enable online lead generation 
+            and sales.</h4>
+          <!-- <a href="#">Read More</a> -->
+        </div>
+      </div>
+    </section>
+<!-- 
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="https://formspree.io/f/xoqokwpd" method="POST" class="contact__form">
+        <div class="input__row">
+          <input type="text" name="First Name" placeholder="First Name" required>
+          <input type="text" name="Last Name" placeholder="Last Name" required>
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </section> -->
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get In Touch</h2>
+    <form action="https://formspree.io/f/xoqokwpd" method="POST"  class="contact__form">
+      <div class="input__row">
+         <input type="text" name="First Name" placeholder="First Name" required>
+         <input type="text" name="Last Name" placeholder="Last Name" required>
+       </div>
+         <input type="email" name="Email Address" placeholder="Your Email Address" required>
+         <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+       <button type="submit" class="btn">Send Message</button>
+   </form>
+   </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Gift</a></h5>
+          <p>
+            I'm a dedicated web developer with a creative flair and a penchant
+            for turning lines of code into captivating online experiences.
+          </p>
+          <div class="footer__socials">
+           
+            <a href="https://github.com/brooklyn5991"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/oke-okorefe-28009a219"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+           
+
+            
+          </div>
+        </div>
+        <!-- <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">Web Design</a>
+            <a href="#">App Design</a>
+            <a href="#">Photography</a>
+            <a href="#">Videography</a>
+            <a href="#">Web Development</a>
+          </div>
+        </div> -->
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="#">+2348103129471</a>
+            <!-- <a href="#">My Blog</a> -->
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Brooklyn. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
